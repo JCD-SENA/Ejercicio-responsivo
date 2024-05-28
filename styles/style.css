@@ -164,6 +164,9 @@ h2, h3, b {
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    margin-bottom: 9%;
+    border-radius: 5px;
+    width: 15%;
 }
 
 .servicios h2 {
@@ -171,12 +174,14 @@ h2, h3, b {
     margin-bottom: 3%;
 }
 
-.servicio h2 {
+.servicio h3 {
     font-size: 17px;
+    margin-bottom: 49px;
 }
 
 .servicio b {
     font-size: 11px;
+    margin-bottom: 28px;
 }
 
 .servicio b span {
@@ -190,4 +195,27 @@ h2, h3, b {
 
 #premium-service h3, #premium-service b {
     color: white;
+}
+
+.clientes {
+    background-color: #eceeef;
+    padding: 80px;
+}
+
+.service-button {
+    color: var(--azul);
+    border: 2px solid var(--azul);
+    margin-top: 37px;
+}
+
+.service-button-premium {
+    border: none;
+    background-color: var(--verde);
+    color: var(--azul);
+    margin-top: 39px;
+}
+
+.servicio span {
+    margin-top: 11px;
+    margin-bottom: 11px;
 }

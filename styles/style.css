@@ -306,3 +306,21 @@ input[type="submit"] {
     border-radius: 50px;
     padding: 17px;
 }
+
+.media {
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    border: none;
+    padding: 14px;
+    margin: 4.5px;
+}
+
+footer {
+    background-color: var(--azul);
+    color: white;
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

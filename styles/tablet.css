@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) {
+    .banner p {
+        width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .banner a {
+        align-self: center;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .banner>a>button {
+        font-size: 48px;
+        width: 100%;
+    }
+
+    .banner>p {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    #top a {
+        font-size: 32px;
+    }
+
+    .clientes img {
+        height: 10vh;
+        margin: 10px;
+        max-width: 48vw;
+        padding-right: min(50px, 50%);
+    }
+
+    section, header, footer {
+        width: 100%;
+        width: fit-content;
+    }
+
+    .clientes {
+        flex-wrap: wrap;
+    }
+
+    .contacto {
+        flex-flow: column;
+    }
+
+    .servicios, #top, footer {
+        width: auto;
+    }
+
+    .contacto {
+        padding: 10px;
+        width: auto;
+    }
+
+    .datos-contacto {
+        width: 100%;
+    }
+
+    .contacto div h2 {
+        font-size: 48;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .contacto p, .contacto span {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .campo {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    #campos {
+        flex-flow: column;
+    }
+
+    .features article div p {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .smartest {
+        font-size: 24px;
+        width: auto;
+    }
+
+    .smartest div {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smart-protect {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .smart-protect img {
+        height: 100%;
+    }
+
+    .smart-protect h3 {
+        font-size: 48px;
+    }
+
+    .smart-protect p {
+        font-size: 24px;
+        width: 70%;
+    }
+
+    .features article img {
+        align-self: center;
+        height: 17vh;
+    }
+
+    .feature-button {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .servicios div {
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .servicio {
+        width: 75%;
+    }
+
+    .servicio h3 {
+        font-size: 48px;
+    }
+
+    .service-button, .service-button-premium {
+        font-size: 24px;
+        width: 100%;
+    }
+}

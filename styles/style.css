@@ -10,6 +10,10 @@
     font-family: sans-serif;
 }
 
+header, footer, section {
+    max-width: -webkit-fill-available;
+}
+
 header {
     background-image: url(../assets/images/banner-bk.jpg);
     color: white;

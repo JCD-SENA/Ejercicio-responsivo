@@ -207,6 +207,7 @@ h2, h3, b {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .service-button {

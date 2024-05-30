@@ -41,20 +41,13 @@
         width: fit-content;
     }
 
-    .clientes {
-        flex-wrap: wrap;
-    }
-
-    .contacto {
-        flex-flow: column;
-    }
-
     .servicios, #top, footer {
         width: auto;
     }
 
     .contacto {
-        padding: 10px;
+        padding: 50px;
+        flex-flow: column;
         width: auto;
     }
 
@@ -123,7 +116,8 @@
 
     .feature-button {
         font-size: 18px;
-        width: 100%;
+        width: 80%;
+        align-self: center;
     }
 
     .servicios div {
